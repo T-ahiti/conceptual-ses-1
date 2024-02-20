@@ -82,15 +82,32 @@
   }
 
   /* this is main section */
-  .about-container{
-    color: black;
-    background-color: white;
+  #about-container{
+    height: 85vh;
   }
 
-  .about-header{
+  .section-header{
     text-align: center;
+    color: black;
+    font-size: 50px;
   }
 
   .about{
     display: flex;
+    justify-content: space-around;
+  }
+
+  .about-img{
+    height: 370px;
+    width: 350px;
+  }
+
+  .about-header{
+    color: black;
+    font-size: 25px;
+  }
+
+  .about-description{
+    color: black;
+    font-size: 20px;
   }
