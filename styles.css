@@ -31,23 +31,26 @@
 
   .banner-container{
     display: flex;
-    background-color: black;
-    height: 550px;
+    justify-content: space-around;
+    background: linear-gradient(45deg, black, rgb(67, 67, 67));
+    height: 100vh;
   }
 
   .text-container{
     align-items: center;
-    margin-left: 130px;
-    margin-top: 150px;
+    margin-left: 0px;
+    margin-top: 180px;
   }
 
   .first-part{
     margin-bottom: 0px;
+    font-size: 46px;
   }
   
   .Second-part{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 46px;
   }
 
   .small-text{
@@ -56,13 +59,38 @@
   }
 
   .banner-button{
-    background-color: brown;
+    background-color: red;
     height: 30px;
     width: 100px;
     border: none;
     border-radius: 2px;
   }
 
+  .banner-button:hover{
+    cursor: pointer;
+    background-color: brown;
+  }
+
   .button-text{
     font-size: smaller;
+  }
+
+  .banner-img{
+    height: 300px;
+    width: 290px;
+    margin-top: 150px;
+  }
+
+  /* this is main section */
+  .about-container{
+    color: black;
+    background-color: white;
+  }
+
+  .about-header{
+    text-align: center;
+  }
+
+  .about{
+    display: flex;
   }
