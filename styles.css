@@ -21,4 +21,48 @@
 .no-bullets {
     list-style-type: none;
   }
+
+  .home-list-container{
+    cursor: pointer;
+  }
+  .list-item:hover{
+    color: black;
+  }
+
+  .banner-container{
+    display: flex;
+    background-color: black;
+    height: 550px;
+  }
+
+  .text-container{
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 150px;
+  }
+
+  .first-part{
+    margin-bottom: 0px;
+  }
   
+  .Second-part{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .small-text{
+    margin-top: 13px;
+    font-size: small;
+  }
+
+  .banner-button{
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .button-text{
+    font-size: smaller;
+  }
