@@ -113,7 +113,7 @@
   }
 
   .service-container{
-    background-color: black;
+    background: linear-gradient(45deg, black, rgb(67, 67, 67));
     height: 80vh;
   }
 
@@ -157,5 +157,14 @@
   }
 
   .service-button{
+    background-color:gray;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;  
+    cursor: pointer;
+  }
 
+  .service-button:hover{
+    background-color: rgb(78, 77, 77);
   }
