@@ -114,7 +114,7 @@
 
   .service-container{
     background-color: black;
-    height: 70vh;
+    height: 80vh;
   }
 
   .service-header{
@@ -138,8 +138,10 @@
 
   .service-box{
     height: 270px;
-    width: 210px;
+    width: 220px;
     box-shadow: 4px 4px 15px  gray;
+    text-align: center;
+    padding-top: 15px;
   }
 
   .service-icons{
@@ -152,4 +154,8 @@
     text-align: center;
     padding: 15px;
     margin-top: 0px;
+  }
+
+  .service-button{
+
   }
